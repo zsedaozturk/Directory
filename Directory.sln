@@ -5,13 +5,15 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B1C0E7BB-8196-4E8F-91B8-800B354C46CF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contact", "Contact", "{EAA4A8A4-9336-431D-9620-3B952087D9F8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContactService", "ContactService", "{EAA4A8A4-9336-431D-9620-3B952087D9F8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{AA0A5345-02A1-46E1-BEFB-098AA941C54D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportService", "ReportService", "{AA0A5345-02A1-46E1-BEFB-098AA941C54D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.Contact.DataAccess", "Directory.Contact.DataAccessLayer\Directory.Contact.DataAccess.csproj", "{6D4AE0F7-DDA9-459B-AB43-8CA1D11AE051}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.ContactService.DataAccess", "Directory.Contact.DataAccessLayer\Directory.ContactService.DataAccess.csproj", "{6D4AE0F7-DDA9-459B-AB43-8CA1D11AE051}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.Report.DataAccess", "Directory.Report.DataAccessLayer\Directory.Report.DataAccess.csproj", "{B4627BBB-1B16-481E-9ED3-3FB123F3B337}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.ReportService.DataAccess", "Directory.Report.DataAccessLayer\Directory.ReportService.DataAccess.csproj", "{B4627BBB-1B16-481E-9ED3-3FB123F3B337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.ContactService.Business", "Directory.Contact.Business\Directory.ContactService.Business.csproj", "{D55DF3EA-C2DD-4FA9-81CB-C4D0A654757A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B4627BBB-1B16-481E-9ED3-3FB123F3B337}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4627BBB-1B16-481E-9ED3-3FB123F3B337}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4627BBB-1B16-481E-9ED3-3FB123F3B337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55DF3EA-C2DD-4FA9-81CB-C4D0A654757A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55DF3EA-C2DD-4FA9-81CB-C4D0A654757A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55DF3EA-C2DD-4FA9-81CB-C4D0A654757A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55DF3EA-C2DD-4FA9-81CB-C4D0A654757A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 		{AA0A5345-02A1-46E1-BEFB-098AA941C54D} = {B1C0E7BB-8196-4E8F-91B8-800B354C46CF}
 		{6D4AE0F7-DDA9-459B-AB43-8CA1D11AE051} = {EAA4A8A4-9336-431D-9620-3B952087D9F8}
 		{B4627BBB-1B16-481E-9ED3-3FB123F3B337} = {AA0A5345-02A1-46E1-BEFB-098AA941C54D}
+		{D55DF3EA-C2DD-4FA9-81CB-C4D0A654757A} = {EAA4A8A4-9336-431D-9620-3B952087D9F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C879585B-2C25-4815-A57A-E8BCB847CEA8}

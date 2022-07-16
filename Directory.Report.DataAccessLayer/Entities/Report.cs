@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Directory.Report.DataAccess.Entities
+namespace Directory.ReportService.DataAccess.Entities
 {
     public class Report
     {

@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Directory.ContactService.DataAccess.Entities
+namespace Directory.ContactService.Business.DTOs
 {
-    public class Contact
+    public class ContactDto
     {
         public int ID { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }
         public Guid UserID { get; set; }
-        public User User { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Directory.Contact.DataAccessLayer.Entities
+namespace Directory.ContactService.DataAccess.Entities
 {
     public class User
     {
