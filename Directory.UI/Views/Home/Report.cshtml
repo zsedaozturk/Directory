@@ -1,0 +1,112 @@
+﻿
+
+<div class="container">
+
+    <div class="m-3">
+        <div class="row shadow-sm p-3 mb-3 bg-secondary text-white rounded">
+            <div class="col-md-6">
+                <p class="font-weight-bold"> REPORTS</p>
+            </div>
+            <div class="col-md-6">
+
+                <div class="input-group">
+                    <input type="text" class="form-control ml-2" id="reportLocation" placeholder="Report Location">
+                    <input type="text" class="form-control" id="reportName" placeholder="Report Name">
+                    <div class="input-group-append">
+                        <button class="btn btn-dark" id="addnewreport" type="button">Get Report</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="table-responsive">
+
+        <table id="reportTable" class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Report Name</th>
+                    <th>Location</th>
+                    <th>Person Count</th>
+                    <th>Phone Count</th>
+                    <th>Created Date</th>
+                    <th>State</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+<button onclick="exportData()">
+            <span class="glyphicon glyphicon-download"></span>
+            Download list</button></div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+        crossorigin="anonymous"></script>
+
+        
+<script src="~/js/report.js"></script>
+<script>
+    function exportData(){
+    /* Get the HTML data using Element by Id */
+    var table = document.getElementById("reportTable");
+ 
+    /* Declaring array variable */
+    var rows =[];
+ 
+      //iterate through rows of table
+    for(var i=0,row; row = table.rows[i];i++){
+        //rows would be accessed using the "row" variable assigned in the for loop
+        //Get each cell value/column from the row
+        column1 = row.cells[0].innerText;
+        column2 = row.cells[1].innerText;
+        column3 = row.cells[2].innerText;
+        column4 = row.cells[3].innerText;
+        column5 = row.cells[4].innerText;
+ 
+    /* add a new records in the array */
+        rows.push(
+            [
+                column1,
+                column2,
+                column3,
+                column4,
+                column5
+            ]
+        );
+ 
+        }
+        csvContent = "data:text/csv;charset=utf-8,";
+         /* add the column delimiter as comma(,) and each row splitted by new line character (\n) */
+        rows.forEach(function(rowArray){
+            row = rowArray.join(",");
+            csvContent += row + "\r\n";
+        });
+ 
+        /* create a hidden <a> DOM node and set its download attribute */
+        var encodedUri = encodeURI(csvContent);
+        var link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", "Report.csv");
+        document.body.appendChild(link);
+         /* download the data file named "Stock_Price_Report.csv" */
+        link.click();
+}
+</script>
+
+
+
