@@ -23,9 +23,11 @@ namespace Directory.UI.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Report()
         {
+
             return View();
+
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
