@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     $.ajax({
         type: "GET",
-        url: "https://localhost:44311/api/userservice/userservice/getalluserscontacts",
+        url: "https://localhost:44311/api/userservice/contactservice/getalluserscontacts",
         datatype: "json",
         contentType: "application/json; charset=utf-8",
         success: function (data) {
@@ -50,7 +50,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "https://localhost:44311/api/userservice/userservice/addcontact",
+            url: "https://localhost:44311/api/userservice/contactservice/addcontact",
             dataType: "JSON",
             contentType: "application/json; charset-utf-8",
             data: JSON.stringify({ 'PhoneNumber': PhoneNumber, 'Email': Email, 'Address': Address, 'UserID': UserID }),
@@ -69,7 +69,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "https://localhost:44311/api/userservice/userservice/adduser",
+            url: "https://localhost:44311/api/userservice/contactservice/adduser",
             dataType: "JSON",
             contentType: "application/json; charset-utf-8",
             data: JSON.stringify({ 'Name': Name, 'Surname': Surname, 'CompanyName': CompanyName }),
@@ -101,7 +101,7 @@ function GetUserId(id) {
 function GetContact(userId) {
     $.ajax({
         type: "POST",
-        url: "https://localhost:44311/api/userservice/userservice/getcontact",
+        url: "https://localhost:44311/api/userservice/contactservice/getcontact",
         datatype: "json",
         contentType: "application/json; charset=utf-8",
         data: JSON.stringify({ 'UserID': userId }),
@@ -136,7 +136,7 @@ function GetContact(userId) {
 function DeletePerson(userId) {
     $.ajax({
         type: "DELETE",
-        url: "https://localhost:44311/api/userservice/userservice/deleteuser",
+        url: "https://localhost:44311/api/userservice/contactservice/deleteuser",
         datatype: "json",
         contentType: "application/json; charset=utf-8",
         data: JSON.stringify({ 'UserID': userId }),
@@ -151,7 +151,7 @@ function DeleteContact(id) {
 
     $.ajax({
         type: "POST",
-        url: "https://localhost:44311/api/userservice/userservice/deletecontact",
+        url: "https://localhost:44311/api/userservice/contactservice/deletecontact",
         datatype: "json",
         contentType: "application/json; charset=utf-8",
         data: JSON.stringify({ 'ID': ID }),

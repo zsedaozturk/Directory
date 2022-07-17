@@ -1,14 +1,12 @@
-﻿using Directory.ContactService.Business.DTOs;
-using Directory.ContactService.Business.Managers;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Directory.ContactService.Business.DTOs;
+using Directory.ContactService.Business.Managers;
 
-namespace Directory.ContactService.Prensentation.Controllers
+namespace TelephoneDirectory.ContactService.PresentationLayer.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
