@@ -7,7 +7,11 @@ The project can be downloaded using the command: git clone https://github.com/zs
 Then make sure the following are chosen as startup projects:
 
 ReportConsumerConsole
+
 Directory.UI
+
 Directory.APIGateway
+
 Directory.ContactService.Presentation
+
 Directory.ReportService.Presentation
