@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Directory.Contact.DataAccessLayer\Directory.ContactService.DataAccess.csproj" />
+    <ProjectReference Include="..\Directory.ContactService.DataAccess\Directory.ContactService.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

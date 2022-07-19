@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContactService", "ContactSe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportService", "ReportService", "{AA0A5345-02A1-46E1-BEFB-098AA941C54D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.ContactService.DataAccess", "Directory.Contact.DataAccessLayer\Directory.ContactService.DataAccess.csproj", "{6D4AE0F7-DDA9-459B-AB43-8CA1D11AE051}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.ContactService.DataAccess", "Directory.ContactService.DataAccess\Directory.ContactService.DataAccess.csproj", "{6D4AE0F7-DDA9-459B-AB43-8CA1D11AE051}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.ReportService.DataAccess", "Directory.Report.DataAccessLayer\Directory.ReportService.DataAccess.csproj", "{B4627BBB-1B16-481E-9ED3-3FB123F3B337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.ReportService.DataAccess", "Directory.ReportService.DataAccess\Directory.ReportService.DataAccess.csproj", "{B4627BBB-1B16-481E-9ED3-3FB123F3B337}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.ContactService.Business", "Directory.ContactService.Business\Directory.ContactService.Business.csproj", "{D55DF3EA-C2DD-4FA9-81CB-C4D0A654757A}"
 EndProject
