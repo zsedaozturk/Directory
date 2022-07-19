@@ -66,7 +66,7 @@ namespace Directory.ContactService.DataAccess.Migrations
 
             modelBuilder.Entity("Directory.ContactService.DataAccess.Entities.Contact", b =>
                 {
-                    b.HasOne("TelephoneDirectory.UserService.DataAccessLayer.Entities.User", "User")
+                    b.HasOne("Directory.ContactService.DataAccess.Entities.User", "User")
                         .WithMany("contacts")
                         .HasForeignKey("UserID")
                         .OnDelete(DeleteBehavior.Cascade)

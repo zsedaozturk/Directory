@@ -21,7 +21,7 @@ namespace Directory.ReportService.DataAccess.Migrations
                 .HasAnnotation("ProductVersion", "3.1.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
-            modelBuilder.Entity("TelephoneDirectory.ReportService.DataAccessLayer.Entitites.Report", b =>
+            modelBuilder.Entity("Directory.ReportService.DataAccess.Entitites.Report", b =>
                 {
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd()

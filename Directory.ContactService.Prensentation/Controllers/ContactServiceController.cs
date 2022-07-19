@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Directory.ContactService.Business.DTOs;
 using Directory.ContactService.Business.Managers;
 
-namespace TelephoneDirectory.ContactService.PresentationLayer.Controllers
+namespace Directory.ContactService.Presentation.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
