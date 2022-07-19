@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.ContactService.Bu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateway", "APIGateway", "{D83BB1B2-A1C0-4834-8A53-683E0B294887}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.APIGateway", "APIGateway1\Directory.APIGateway.csproj", "{6CCBA622-4EAD-4FDB-94C4-A5082C2B16B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.APIGateway", "Directory.APIGateway\Directory.APIGateway.csproj", "{6CCBA622-4EAD-4FDB-94C4-A5082C2B16B4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.ContactService.Prensentation", "Directory.ContactService.Prensentation\Directory.ContactService.Prensentation.csproj", "{CA237EE5-FA6E-4521-9BF9-631764EC0BE7}"
 EndProject
