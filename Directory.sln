@@ -35,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.ReportBusConfigur
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DEA1CE9E-5EEC-47C4-8871-90AB2A722438}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.Tests", "Directory.Tests1\Directory.Tests.csproj", "{5A4D026C-8BD4-4661-877F-EA2C6EF56654}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.Tests", "Directory.Tests\Directory.Tests.csproj", "{5A4D026C-8BD4-4661-877F-EA2C6EF56654}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.ReportService.Presentation", "Directory.ReportService.Presentation\Directory.ReportService.Presentation.csproj", "{92C11A97-2320-4A90-AE03-2751008182A4}"
 EndProject
