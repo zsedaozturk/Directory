@@ -88,7 +88,16 @@ $(document).ready(function () {
         window.location.reload();
     });
 
+    $("#AddUserBtn").click(function () {
+        window.location.reload();
+    });
 
+    $("#AddContactBtn").click(function () {
+        window.location.reload();
+    });
+    $('#showContactModal').on('hidden.bs.modal', function (e) {
+        location.reload();
+    })
 
 });
 
@@ -107,8 +116,7 @@ function GetContact(userId) {
         data: JSON.stringify({ 'UserID': userId }),
         success: function (data) {
             if (data != null) {
-                $("#contactTable").DataTable({
-
+                $("#contactTable").DataTable({           
                     data: data,
 
                     "columns": [
