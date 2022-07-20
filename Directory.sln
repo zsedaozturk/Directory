@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.ContactService.Bu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateway", "APIGateway", "{D83BB1B2-A1C0-4834-8A53-683E0B294887}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.APIGateway", "APIGateway1\Directory.APIGateway.csproj", "{6CCBA622-4EAD-4FDB-94C4-A5082C2B16B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.APIGateway", "Directory.APIGateway\Directory.APIGateway.csproj", "{6CCBA622-4EAD-4FDB-94C4-A5082C2B16B4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.ContactService.Prensentation", "Directory.ContactService.Prensentation\Directory.ContactService.Prensentation.csproj", "{CA237EE5-FA6E-4521-9BF9-631764EC0BE7}"
 EndProject
@@ -35,9 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.ReportBusConfigur
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DEA1CE9E-5EEC-47C4-8871-90AB2A722438}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.Tests", "Directory.Tests1\Directory.Tests.csproj", "{5A4D026C-8BD4-4661-877F-EA2C6EF56654}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Directory.Tests", "Directory.Tests\Directory.Tests.csproj", "{5A4D026C-8BD4-4661-877F-EA2C6EF56654}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.ReportService.Presentation", "WebApplication1\Directory.ReportService.Presentation.csproj", "{92C11A97-2320-4A90-AE03-2751008182A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.ReportService.Presentation", "Directory.ReportService.Presentation\Directory.ReportService.Presentation.csproj", "{92C11A97-2320-4A90-AE03-2751008182A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
